@@ -1,0 +1,6 @@
+framework module Pods_PhotoGridExercise {
+  umbrella header "Pods-PhotoGridExercise-umbrella.h"
+
+  export *
+  module * { export * }
+}

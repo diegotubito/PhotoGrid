@@ -3,25 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1504F46265194ED00B481E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1504F45265194ED00B481E8 /* AppDelegate.swift */; };
+		313E919AB5C363FA5240BE54 /* Pods_PhotoGridExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB12ECB617C200814DFF052 /* Pods_PhotoGridExercise.framework */; };
 		F1504F4A265194ED00B481E8 /* PhotoGridExcerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1504F49265194ED00B481E8 /* PhotoGridExcerciseViewController.swift */; };
 		F1504F4D265194ED00B481E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1504F4B265194ED00B481E8 /* Main.storyboard */; };
 		F1504F4F265194EE00B481E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1504F4E265194EE00B481E8 /* Assets.xcassets */; };
 		F1504F52265194EE00B481E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1504F50265194EE00B481E8 /* LaunchScreen.storyboard */; };
+		F15925A026543F0A00F67FBE /* SuperHeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F159259E26543F0A00F67FBE /* SuperHeroCollectionViewCell.swift */; };
+		F15925A126543F0A00F67FBE /* SuperHeroCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F159259F26543F0A00F67FBE /* SuperHeroCollectionViewCell.xib */; };
+		F15925A42654707900F67FBE /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15925A32654707900F67FBE /* Configuration.swift */; };
+		F15925A62654712000F67FBE /* MeasurementUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15925A52654712000F67FBE /* MeasurementUnit.swift */; };
+		F18291832654156D007073D1 /* SuperHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18291822654156D007073D1 /* SuperHeroViewModel.swift */; };
+		F1DB4A652651A72F00174CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB4A642651A72F00174CB4 /* AppDelegate.swift */; };
+		F1DB4A672651A75F00174CB4 /* ServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB4A662651A75F00174CB4 /* ServerModel.swift */; };
+		F1DB4A6C2651A89900174CB4 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB4A692651A89900174CB4 /* ServerManager.swift */; };
+		F1DB4A6D2651A89900174CB4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB4A6A2651A89900174CB4 /* Endpoint.swift */; };
+		F1DB4A702651AEB300174CB4 /* SuperHeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB4A6F2651AEB300174CB4 /* SuperHeroModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B5310B8D4689ADB20ADEB5E /* Pods-PhotoGridExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGridExercise.debug.xcconfig"; path = "Target Support Files/Pods-PhotoGridExercise/Pods-PhotoGridExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		AEB12ECB617C200814DFF052 /* Pods_PhotoGridExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoGridExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1504F42265194ED00B481E8 /* PhotoGridExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoGridExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1504F45265194ED00B481E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1504F49265194ED00B481E8 /* PhotoGridExcerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridExcerciseViewController.swift; sourceTree = "<group>"; };
 		F1504F4C265194ED00B481E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1504F4E265194EE00B481E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1504F51265194EE00B481E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1504F53265194EE00B481E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F159259E26543F0A00F67FBE /* SuperHeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		F159259F26543F0A00F67FBE /* SuperHeroCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroCollectionViewCell.xib; sourceTree = "<group>"; };
+		F15925A32654707900F67FBE /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		F15925A52654712000F67FBE /* MeasurementUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementUnit.swift; sourceTree = "<group>"; };
+		F18291822654156D007073D1 /* SuperHeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewModel.swift; sourceTree = "<group>"; };
+		F1DB4A642651A72F00174CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DB4A662651A75F00174CB4 /* ServerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerModel.swift; sourceTree = "<group>"; };
+		F1DB4A692651A89900174CB4 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		F1DB4A6A2651A89900174CB4 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F1DB4A6F2651AEB300174CB4 /* SuperHeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroModel.swift; sourceTree = "<group>"; };
+		F7A9621B90C399C1609B9FE3 /* Pods-PhotoGridExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGridExercise.release.xcconfig"; path = "Target Support Files/Pods-PhotoGridExercise/Pods-PhotoGridExercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313E919AB5C363FA5240BE54 /* Pods_PhotoGridExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B9C31FA4531EC23718752C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB12ECB617C200814DFF052 /* Pods_PhotoGridExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76908490DC5437C29B199BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B5310B8D4689ADB20ADEB5E /* Pods-PhotoGridExercise.debug.xcconfig */,
+				F7A9621B90C399C1609B9FE3 /* Pods-PhotoGridExercise.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F1504F39265194ED00B481E8 = {
 			isa = PBXGroup;
 			children = (
 				F1504F44265194ED00B481E8 /* PhotoGridExercise */,
 				F1504F43265194ED00B481E8 /* Products */,
+				76908490DC5437C29B199BB6 /* Pods */,
+				20B9C31FA4531EC23718752C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +96,13 @@
 		F1504F44265194ED00B481E8 /* PhotoGridExercise */ = {
 			isa = PBXGroup;
 			children = (
-				F1504F5C265195D600B481E8 /* Common */,
-				F1504F5E265195F200B481E8 /* Storyboard */,
-				F1504F5D265195DC00B481E8 /* Resources */,
+				F15925A22654706F00F67FBE /* Common */,
+				F1DB4A682651A88D00174CB4 /* Services */,
 				F1504F592651951800B481E8 /* Model */,
 				F1504F5B2651951E00B481E8 /* ViewModel */,
 				F1504F5A2651951B00B481E8 /* View */,
+				F1504F5E265195F200B481E8 /* Storyboard */,
+				F1504F5D265195DC00B481E8 /* Resources */,
 			);
 			path = PhotoGridExercise;
 			sourceTree = "<group>";
@@ -67,6 +110,9 @@
 		F1504F592651951800B481E8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1DB4A662651A75F00174CB4 /* ServerModel.swift */,
+				F1DB4A6F2651AEB300174CB4 /* SuperHeroModel.swift */,
+				F15925A52654712000F67FBE /* MeasurementUnit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -74,7 +120,8 @@
 		F1504F5A2651951B00B481E8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F1504F49265194ED00B481E8 /* PhotoGridExcerciseViewController.swift */,
+				F1DB4A642651A72F00174CB4 /* AppDelegate.swift */,
+				F182918426541F48007073D1 /* SuperHero */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,16 +129,9 @@
 		F1504F5B2651951E00B481E8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F18291822654156D007073D1 /* SuperHeroViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		F1504F5C265195D600B481E8 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				F1504F45265194ED00B481E8 /* AppDelegate.swift */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		F1504F5D265195DC00B481E8 /* Resources */ = {
@@ -112,6 +152,41 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		F15925A22654706F00F67FBE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F15925A32654707900F67FBE /* Configuration.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F182918426541F48007073D1 /* SuperHero */ = {
+			isa = PBXGroup;
+			children = (
+				F1504F49265194ED00B481E8 /* PhotoGridExcerciseViewController.swift */,
+				F182918926541F86007073D1 /* Cell */,
+			);
+			path = SuperHero;
+			sourceTree = "<group>";
+		};
+		F182918926541F86007073D1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F159259E26543F0A00F67FBE /* SuperHeroCollectionViewCell.swift */,
+				F159259F26543F0A00F67FBE /* SuperHeroCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1DB4A682651A88D00174CB4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB4A6A2651A89900174CB4 /* Endpoint.swift */,
+				F1DB4A692651A89900174CB4 /* ServerManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1504F56265194EE00B481E8 /* Build configuration list for PBXNativeTarget "PhotoGridExercise" */;
 			buildPhases = (
+				FDC1F8655E4C4DB793C47111 /* [CP] Check Pods Manifest.lock */,
 				F1504F3E265194ED00B481E8 /* Sources */,
 				F1504F3F265194ED00B481E8 /* Frameworks */,
 				F1504F40265194ED00B481E8 /* Resources */,
+				6A9813C587309B03AFCE6810 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15925A126543F0A00F67FBE /* SuperHeroCollectionViewCell.xib in Resources */,
 				F1504F52265194EE00B481E8 /* LaunchScreen.storyboard in Resources */,
 				F1504F4F265194EE00B481E8 /* Assets.xcassets in Resources */,
 				F1504F4D265194ED00B481E8 /* Main.storyboard in Resources */,
@@ -177,13 +255,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A9813C587309B03AFCE6810 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoGridExercise/Pods-PhotoGridExercise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoGridExercise/Pods-PhotoGridExercise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoGridExercise/Pods-PhotoGridExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC1F8655E4C4DB793C47111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoGridExercise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1504F3E265194ED00B481E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DB4A6C2651A89900174CB4 /* ServerManager.swift in Sources */,
+				F1DB4A652651A72F00174CB4 /* AppDelegate.swift in Sources */,
+				F1DB4A672651A75F00174CB4 /* ServerModel.swift in Sources */,
+				F15925A42654707900F67FBE /* Configuration.swift in Sources */,
 				F1504F4A265194ED00B481E8 /* PhotoGridExcerciseViewController.swift in Sources */,
-				F1504F46265194ED00B481E8 /* AppDelegate.swift in Sources */,
+				F18291832654156D007073D1 /* SuperHeroViewModel.swift in Sources */,
+				F15925A62654712000F67FBE /* MeasurementUnit.swift in Sources */,
+				F1DB4A6D2651A89900174CB4 /* Endpoint.swift in Sources */,
+				F15925A026543F0A00F67FBE /* SuperHeroCollectionViewCell.swift in Sources */,
+				F1DB4A702651AEB300174CB4 /* SuperHeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +455,7 @@
 		};
 		F1504F57265194EE00B481E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5310B8D4689ADB20ADEB5E /* Pods-PhotoGridExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -346,6 +475,7 @@
 		};
 		F1504F58265194EE00B481E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A9621B90C399C1609B9FE3 /* Pods-PhotoGridExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
